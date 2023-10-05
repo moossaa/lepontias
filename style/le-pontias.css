@@ -1,0 +1,31 @@
+#photos-anciennces-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    background: none;
+    gap: 15px;
+    padding: 20px 0px;
+}
+
+.photo-ancienne{
+    height: 200px;
+    border: solid 8px white;
+    transition-duration: .2s;
+}
+
+.photo-ancienne:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 400px)
+{
+    .photo-ancienne{
+        width: 95%;
+        height: auto;
+        border: solid 8px white;
+        transition-duration: .2s;
+    }
+}

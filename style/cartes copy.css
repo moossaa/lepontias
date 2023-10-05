@@ -1,0 +1,230 @@
+@font-face {
+	font-family: 'theboldfont';
+	src: url("../fonts/theboldfont.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: 'barlow';
+	src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: 'barlow-reg';
+	src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: 'sniglet';
+	src: url("../fonts/Sniglet-Regular.ttf") format("truetype")
+}
+
+.menu-cartes{
+    display: grid;
+    grid-template: 60px / 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    margin: auto;
+    padding:10px 0px;
+    background: white;
+    border-bottom: solid 1px lightgrey;
+}
+
+.carte{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* TABLEAU */
+
+#cadre-exterieur{
+    width: 65em;
+    background: #f8f2e0;    ;
+    margin: auto;
+    padding: 25px;
+}
+
+#bordure-exterieure{
+    padding: 8px;
+    background: none;
+    width: 62em;
+    margin: auto;
+    border: solid 3px #6dbb4c;
+    border-radius: 40px;
+}
+
+#bordure-interieure{
+    margin: auto;
+    background: none;
+    padding: 10px;
+    border: solid 3px #6dbb4c;
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logo{
+    margin: auto;
+    width: 30em;
+    padding: 5px;
+    filter: drop-shadow(3px 3px 3px grey)
+}
+
+.vector{
+    width: 15em;
+    padding-top: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    text-align: left;
+    width: 60em;
+}
+
+.titre0{
+    border: solid 0px black;
+    font: 800 4.2em sniglet;
+    color: #ed8f53;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.titre1{
+    border: solid 0px black;
+    font: 800 3em barlow;
+    color: #f56063;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;;
+}
+
+.titre2{
+    border: solid 0px black;
+    font: 800 2.3em barlow;
+    color: #f56063;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.titre3{
+    border: solid 0x black;
+    font: bold 1.4em "Times New Roman";
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.titre4{
+    border: solid 0x black;
+    font: 1.2em barlow-reg;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+
+.prix1{
+    border: solid 0px black;
+    font: bold 1.6em theboldfont;
+    color: #6dbb4c;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 10px;
+    vertical-align: bottom;
+}
+
+.prix{
+    border: solid 0px black;
+    font: bold 1.4em theboldfont;
+    color: #6dbb4c;
+    letter-spacing: 0.1em;
+    text-align: right;
+    padding-top: 10px;
+    vertical-align: bottom;
+}
+
+.nom{
+    border: solid 0px black;
+    font: 500 1.4em theboldfont;
+    color: #ed8f53;
+    letter-spacing: 0.2em;
+    padding-top: 10px;
+    vertical-align: bottom;
+}
+
+.details{
+    border: solid 0px black;
+    vertical-align: top;
+    height: 2.5em;
+    column-width: 30em;
+    font: italic 1.2em "Times New Roman";
+}
+
+.space{
+    width: 20px;
+}
+
+
+/* FOOTER CARTES*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    padding:10px 100px;
+    background: white;
+    border-top: solid 1px lightgrey;
+}
+    
+
+#logo-footer{
+    height: 70px;
+    transition-duration: .2s;
+}
+
+#logo-footer:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px)
+{
+    .menu-cartes{
+        display: grid;
+        grid-template: 60px / 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        padding:10px 0px;
+        background: white;
+        border-bottom: solid 1px lightgrey;
+    }
+
+    #cadre-exterieur{
+        margin: auto;
+        width: auto;
+        background: #f8f2e0;    ;
+        margin: auto;
+        padding: 25px;
+    }
+
+    main{
+        width: 100vw;
+    }
+}
