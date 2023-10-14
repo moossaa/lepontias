@@ -201,7 +201,7 @@ main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 180px;
+    width: 170px;
     background: none;
 }
 
