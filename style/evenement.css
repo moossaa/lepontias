@@ -125,15 +125,10 @@ main{
     background: rgb(21, 21, 21);
 }
 
-.fb-page{
-    padding:10px;
-    background: green;
-}
 
 .grand-container{
     margin: auto;
-    background: red;
-    width: 90%;
+    background: none;
 
 }
 

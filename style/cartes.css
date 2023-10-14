@@ -51,8 +51,12 @@
     background: #f2bc52;
 }
 
-.carte{
+.carte-container{
     display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.carte{
     margin: auto;
     width: 100%;
     max-width: 900px;
