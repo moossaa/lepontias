@@ -161,7 +161,7 @@ main{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    height: 100px;
+    height: 120px;
     margin: auto;
     padding:10px 100px;
     background: white;
@@ -201,15 +201,18 @@ main{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 200px;
+    width: 180px;
+    background: none;
 }
 
 .jours{
     text-align: right;
+    background: none;
 }
 
 .heures{
     text-align: left;
+    background: none;
 }
 
 /* MENTIONS LEGALES */
